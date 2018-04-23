@@ -62,6 +62,16 @@
 	.item-gallery .block-name-item-gallery {
 		font-size: 25px;
 	}
+
+	/* CONTACT */
+
+	.input-block {
+		margin-bottom: 20px;
+	}
+
+	.input-block input[type="text"], input[type="email"], textarea {
+		font-size: 20px;
+	}
 }
 
 /* Medium and up */
@@ -128,6 +138,12 @@
 
 	.item-gallery .block-name-item-gallery {
 		font-size: 25px;
+	}
+
+	/* CONTACT */
+
+	.input-block input[type="text"], input[type="email"], textarea {
+		font-size: 20px;
 	}
 
 }
