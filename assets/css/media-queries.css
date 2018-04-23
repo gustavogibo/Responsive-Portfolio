@@ -45,6 +45,23 @@
 		align-items: center;
 		justify-content: center;	
 	}
+
+	/* GALLERY */
+
+	.item-gallery {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.item-gallery img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.item-gallery .block-name-item-gallery {
+		font-size: 25px;
+	}
 }
 
 /* Medium and up */
@@ -94,6 +111,23 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;	
+	}
+
+	/* GALLERY */
+
+	.item-gallery {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.item-gallery img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.item-gallery .block-name-item-gallery {
+		font-size: 25px;
 	}
 
 }
