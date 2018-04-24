@@ -6,6 +6,7 @@ Second Homework Assignment (recommended) - Basic Portfolio
 
 * HTML
 * CSS (Normal and Media Queries)
+* Others (Images for background color and content)
 
 ### Installing
 
@@ -35,7 +36,7 @@ Second Homework Assignment (recommended) - Basic Portfolio
 
 Currently, this project is using only Media Queries to be responsible. The file is called [media-queries.css](https://github.com/gustavogibo/Responsive-Portfolio/blob/master/assets/css/media-queries.css) and is located on the css folder inside the Assets Folder.
 
-### Responsive Resolutions
+### Responsive Breakpoints
 
 This project is based on three screen sizes:
 
