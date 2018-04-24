@@ -1,4 +1,9 @@
-.container {
+header {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#content {
     width: 1170px;
     margin: 0 auto;
 }
@@ -10,30 +15,24 @@
 }
 
 body {
-    background: 
-  linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
-  linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
-  linear-gradient(315deg, black 25%, transparent 25%),
-  linear-gradient(45deg, black 25%, transparent 25%);	
-  background-size: 2em 2em;
-  background-color: #232323;
-  font-family: Arial, Helvetica, sans-serif;
+    background: url("../images/pattern.png") repeat;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header */
 
 header {
     background: #fff;
-    height: 120px;
+    height: 80px;
 }
 
 #logo {
     float: left;
     background-color: #232323;
-    height: 120px;
+    height: 80px;
     width: 225px;
     text-align: center;
-    line-height: 120px;
+    line-height: 80px;
 }
 
 #logo h1 a {
@@ -48,8 +47,8 @@ header {
 
 #menu {
     float: right;
-    height: 120px;
-    line-height: 120px;
+    height: 80px;
+    line-height: 80px;
 }
 
 #menu nav a {
@@ -71,6 +70,7 @@ main {
     margin-top: 25px;
     border: 1px solid #232323;
     padding: 35px;
+    width: 51%;
 }
 
 main .main-box h1 {
@@ -100,9 +100,9 @@ footer {
     border-top: 4px solid #fff;
     background: #232323;
     height: 100px;
-    width: 1170px;
+    width: 100%;
     text-align: center;
-    line-height: 140px;
+    line-height: 100px;
 }
 
 footer p {
@@ -113,14 +113,14 @@ footer p {
 
 .item-gallery {
     float: left;
-    width: 250px;
+    width: 280px;
     position: relative;
-    margin-right: 32px;
+    margin-right: 36px;
     margin-bottom: 25px;
 }
 
 .item-gallery img {
-    max-width: 250px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -135,7 +135,7 @@ footer p {
     padding: 8px 0px 8px 0px;
 }
 
-.item-gallery:nth-child(4n+0) {
+.item-gallery:nth-child(2n+0) {
     margin-right: 0px;
 }
 
